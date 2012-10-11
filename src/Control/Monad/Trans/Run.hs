@@ -12,7 +12,7 @@
 --
 -- Class to unify the run method of monad transfomers.
 --
--- Each monad transformer also comes with an operation @run@/XXX/ to
+-- Each monad transformer comes with an operation @run@/XXX/ to
 -- unwrap the transformer, exposing a computation of the inner monad.
 -- @Run@ exposes this operation as an interface.
 -----------------------------------------------------------------------------
